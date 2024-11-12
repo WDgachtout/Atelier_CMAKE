@@ -91,7 +91,7 @@ jobs:
 
   Deploy:
    runs-on: ubuntu-latest
-   needs: [Test_Add, Test_div, Test_mul, Test_sub, Test_squa]
+   needs: [Test_Add, Test_div, Test_mul, Test_sub, Test_car]
    steps:
      - name: Checkout code
        uses: actions/checkout@v2
